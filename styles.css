@@ -1,0 +1,91 @@
+html {
+    background: url('img/EuropaTitleScreenMapa.jpg') no-repeat center center fixed;
+    background-color: seagreen;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+#help {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+#help_button {
+    margin-top: 5px;
+    height: 32px;
+    width: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.hb:hover {
+    color: lightgray;
+}
+
+#help.hide {
+    margin-top: 0px;
+}
+
+
+#title_screen {
+    grid-column: 3;
+    grid-row: 2;
+    font-family: 'Tangerine', cursive;
+}
+
+#title_screen.hide {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#intro_text{
+    float: center;
+    margin: 200px auto 0px auto;
+    padding: 18px 15px 10px 15px;
+    height: 290px;
+    width: 200px;
+    text-align: center;
+    font-size: 28px;
+    background-color: #d1b57b;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#play {
+    float: center;
+    margin: 5px auto 0px auto;
+    margin-top: 10px;
+    padding-right: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #d1b57b;
+    border-color: black;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 2px;
+}
+
+.playHover {
+    font-size: 24px;
+    height: 30px;
+    width: 50px;
+}
+
+.playHover:hover {
+    font-size: 27px;
+    height: 35px;
+    width: 55px;
+}
