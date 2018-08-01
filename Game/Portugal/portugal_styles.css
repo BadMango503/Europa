@@ -1,0 +1,17 @@
+body {
+    background-image: url(../../img/EuropaMapa.jpg);
+    background-color: darkgreen;
+    font-family: 'Tangerine', cursive;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+.begPor {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 130px auto 0px auto;
+}
