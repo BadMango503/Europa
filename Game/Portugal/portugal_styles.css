@@ -4,14 +4,39 @@ body {
     font-family: 'Tangerine', cursive;
 }
 
+
+
 #container {
     display: grid;
-    grid-template-columns: 40px 50px auto 50px 40px;
-    grid-template-rows: 25% 100px auto;
+    grid-template-columns: 40px auto 325px auto 40px;
+    grid-template-rows: 25% 400px auto;
 }
 
-.begPor {
+.hide {
+    display: none;
+}
+
+#intro {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    background-color: #d1b57b;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#intro_text {
+    font-size: 25pt;
+}
+
+#cc {
+    float: right;
+    padding-right: 15px;
+}
+
+.enterPor {
     grid-column: 3;
     grid-row: 1;
-    margin: 130px auto 0px auto;
+    margin: 120px auto 0px auto;
 }
