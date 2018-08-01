@@ -4,12 +4,10 @@ body {
     font-family: 'Tangerine', cursive;
 }
 
-
-
 #container {
     display: grid;
     grid-template-columns: 40px auto 325px auto 40px;
-    grid-template-rows: 25% 400px auto;
+    grid-template-rows: 200px 400px auto;
 }
 
 .hide {
@@ -28,6 +26,8 @@ body {
 
 #intro_text {
     font-size: 25pt;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #cc {
