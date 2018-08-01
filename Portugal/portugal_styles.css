@@ -1,0 +1,29 @@
+body {
+    background-image: url(../../img/EuropaMapa.jpg);
+    background-color: darkgreen;
+    font-family: 'Tangerine', cursive;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40px auto 400px auto 40px;
+    grid-template-rows: 25% 400px auto;
+}
+
+.enterPor {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 120px auto 0px auto;
+}
+
+.intro {
+    grid-column: 3;
+    grid-row: 2/3;
+    float:center;
+    text-align: center;
+    background-color: #d1b57b;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 25pt;
+}
