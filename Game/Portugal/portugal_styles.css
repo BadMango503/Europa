@@ -40,3 +40,15 @@ body {
     grid-row: 1;
     margin: 120px auto 0px auto;
 }
+
+#box {
+    border: red 4px solid;
+    height: 105px;
+    width: 77px;
+    margin-left: 287px;
+    margin-top: 48px
+ }
+
+ #first {
+    
+ }

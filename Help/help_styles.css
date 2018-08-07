@@ -1,8 +1,91 @@
 html {
-    background: url('E:/Coding/Europa Claim And Conquer/img/EuropaMapa.jpg') no-repeat center center fixed;
+    background: url('../img/EuropaTitleScreenMapa.jpg') no-repeat center center fixed;
+}
+ /* button stuff */
+.return_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-.back {
-    height: 5px;
-    width: 50px;
+.return {
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
 }
+
+.button {
+    height: 60px;
+    width: 85px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #d1b57b;
+    border-color: #d1b57b;
+    cursor: pointer;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* title */
+.title {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Information boxes */
+.help_box {
+    display: flex;
+    background-color: #d1b57b;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    align-items: center;
+}
+
+.help_box_special {
+    text-align: center;
+    display: block;
+}
+
+.help_box_special h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.help_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+}
+
+.help_text {
+    margin: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* soldier */
+
+/* Trade Caravan */
+
+/* Village */
+
+/* City */
+
+/* Fort */
+
+/* Castle */
+
+/* A Tip */
