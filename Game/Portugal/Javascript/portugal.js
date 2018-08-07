@@ -1,4 +1,4 @@
-document.getElementById("cc").addEventListener("click", myFunction);
+document.getElementById("cc_intro").addEventListener("click", myFunction);
 
 //var title = document.getElementById("intro")
  function myFunction() {
@@ -21,7 +21,7 @@ function startTimer(duration, display) {
      
             if (--timer < 0) {
                 timer = duration;
-                
+                port()
             }
         }, 1000);
      }
@@ -31,3 +31,9 @@ function timer() {
             display = document.querySelector('#time');
         startTimer(fMinutes, display);
      };
+
+function port() {
+    enterPor.className="";
+    body.style.backgroundImage='url(../../img/blurredMap.jpg)';
+    box.className="hide";
+}
