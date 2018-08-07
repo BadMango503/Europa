@@ -1,5 +1,6 @@
 html {
-    background: url('../img/EuropaTitleScreenMapa.jpg') no-repeat center center fixed;
+    background: url('../img/europaMapaTitleScreen.jpg') no-repeat center center fixed;
+    background-color: seagreen; 
 }
  /* button stuff */
 .return_button {
