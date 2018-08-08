@@ -1,0 +1,38 @@
+body {
+    background-image: url(../../../img/blurredMap.jpg);
+    background-color: darkgreen;
+    font-family: 'Tangerine', cursive;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 768px auto;
+    grid-template-rows: 614px 270px;
+}
+
+#main_img {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blue;
+    align-self: center; 
+    height: 614px;
+    width: 768px;
+}
+
+#market {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: tan;
+}
+
+#inventory {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: gray;
+}
+
+#village_info {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: red;
+}
