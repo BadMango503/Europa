@@ -17,7 +17,7 @@ function startTimer(duration, display) {
             minutes = minutes < 10 ? "0" + minutes : minutes;
             seconds = seconds < 10 ? "0" + seconds : seconds;
      
-            display.textContent = minutes + ":" + seconds;
+           display = minutes + ":" + seconds;
      
             if (--timer < 0) {
                 timer = duration;
@@ -27,10 +27,10 @@ function startTimer(duration, display) {
      }
      
 function timer() {
-        var fMinutes = 60 / 60,
-            display = document.querySelector('#time');
-        startTimer(fMinutes, display);
-     };
+    var fMinutes = 60/60,
+        display = document.querySelector('#time');
+    startTimer(fMinutes, display);
+    };
 
 function port() {
     enterPor.className="";
